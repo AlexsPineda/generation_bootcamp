@@ -1,0 +1,54 @@
+/*selector universal*/
+/* *{
+    background-color: aliceblue;
+} */
+
+
+/*selector de clase*/
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse; 
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+/*Selector de id*/
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.color{
+    background-color: aqua;
+}
+.color{
+    background-color: blueviolet;
+}
+.color{
+    background-color: rgba( o, 255, 0, .6);
+}
+.color-texto{
+    color:cadetblue;
+    background-color: crimson;
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+.borde{
+    /* border: 3px solid black; */
+    border-top: 3px solid green;
+    border-right: 3px dashed red;
+    border-bottom: 3px solid black;
+    border-left: 3px dashed blue;
+    text-align: center;
+    line-height: 100px;
+}
+p{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
