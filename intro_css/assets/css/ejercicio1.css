@@ -1,0 +1,16 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#morado{
+    background-color: violet;
+}
+#naranja{
+    background-color: orange;
+}
+#izquierdo{
+    border-left:6px solid palevioletred;
+}
+#arriba-abajo{
+    border-top:3px solid palevioletred;
+    border-bottom: 3px solid palevioletred;
+}
