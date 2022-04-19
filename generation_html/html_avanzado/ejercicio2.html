@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ejercicio2.css">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <script>
+        const color = document.querySelector("#inputColor")
+        console.log(color)
+
+        color.addEventListener("change", function (e){
+            document.body.style.backgroundColor = e.target.value;
+        })
+    </script>
+    <form class="formulario">
+        <h3>Datos del comprador</h3>
+        <div class="nombre">
+            <label class="acomodoLabel" for="nombre">Nombre</label>
+            <input class="colorFondo" type="text" name="name" id="nombre" placeholder="Escribe tu nombre completo">
+        </div>
+        <div class="correo">
+            <label class="acomodoLabel" for="correo">Email</label>
+            <input class="colorFondo" type="email" id="correo" placeholder="ejemplo@um.es">
+        </div>
+        <div class="telefono">
+            <label class="acomodoLabel" for="telefono">País</label>
+            <input class="colorFondo" type="number" name="name" id="telefono" >
+        </div>
+        <h3>Datos de la tarjeta de crédito o débito</h3>
+        <div class="numeroT">
+            <label class="acomodoLabel" for="numeroT">Número</label>
+            <input class="colorFondo" type="number" name="name" id="numeroT" placeholder="EJ. 55-55-55-55">
+        </div>
+        <div class="nombreT">
+            <label class="acomodoLabel" for="nombreT">Nombre</label>
+            <input class="colorFondo" type="text" name="name" id="nombreT" placeholder="Nombre que figura en la tarjeta">
+        </div>
+        <div class="enviar">
+            <input type="submit" value="Confirmar pedido">
+
+        </div>
+    </form>
+</body>
+</html>
