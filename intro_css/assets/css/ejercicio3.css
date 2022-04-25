@@ -1,0 +1,20 @@
+*{
+    background-color: aliceblue;
+}
+h2 {
+    font-family: monospace;
+    font-size: 3rem;
+    font-variant: small-caps;
+}
+p {
+    line-height: 200%;
+    text-indent: 3em;
+}
+#comic{
+    color: chocolate;
+}
+em{
+        background-color: white;
+        color: green;
+    
+}

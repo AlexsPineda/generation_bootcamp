@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.formulario{
+    border: 5px solid blueviolet;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+.colorFondo{
+    background-color: violet;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.acomodoLabel{
+    display: inline-block;
+    width: 100px;
+}
