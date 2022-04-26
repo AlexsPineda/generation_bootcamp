@@ -1,13 +1,29 @@
-a > img {
+.img-logo{
     width: 200px;
     height: 50px;
     object-fit: cover;
+    object-position: center;
 }
-/*
-Carousel
-*/
-div > img {
-    height: calc(100vh - 77px);
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.img-carrusel{
+    height: calc(100vh - 76px);
+    object-fit: cover;
+    object-position: center;
+}
+
+.centrar{
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+}
+
+.img-card{
+    width: 100%;
+    height: 250px;
     object-fit: cover;
     object-position: center;
 }
